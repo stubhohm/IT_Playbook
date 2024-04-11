@@ -6,3 +6,8 @@ class Default(Ticket):
         self.optional_info = {'None': ''}
         super().__init__()
     
+    def closing_comment(self):
+        pass
+
+    def main(self, root):
+        super().main()
